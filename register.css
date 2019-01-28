@@ -1,0 +1,29 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 15px;
+  text-align: left;
+}
+
+table#t01 {
+  width: 100%;
+  background-color: white;
+}
+
+.btn {
+  width: 100px;
+  height: auto;
+}
+
+.row {
+  margin-bottom: 25px;
+}
+
+.row label {
+  width: 100px;
+}

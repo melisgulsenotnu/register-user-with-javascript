@@ -1,0 +1,47 @@
+<html>
+  <script src="register.js"></script>
+  <link rel="stylesheet" type="text/css" href="register.css" />
+  <body>
+    <h2>Task2</h2>
+
+    <form>
+      <div class="row">
+        <label for="firstname">First name:</label>
+        <input id="firstname" type="text" name="firstname" />
+      </div>
+
+      <div class="row">
+        <label for="lastname">Last name:</label>
+        <input id="lastname" type="text" name="lastname" />
+      </div>
+
+      <div class="row">
+        <label for="age">Age:</label>
+        <input id="age" type="number" name="age" />
+      </div>
+
+      <div class="row">
+        <label for="isstudent">I am Student</label>
+        <input id="isstudent" type="checkbox" name="isstudent" value="" />
+      </div>
+
+      <button class="btn" type="button" name="submit" onclick="handleClick()">
+        Register
+      </button>
+
+      <h2>User List</h2>
+
+      <table id="register">
+        <tr class="table-head">
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Age</th>
+          <th>Is Student</th>
+          <th>Remove</th>
+        </tr>
+      </table>
+    </form>
+
+    <div id="page-numbers"></div>
+  </body>
+</html>
